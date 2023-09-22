@@ -2,7 +2,7 @@
 
 ## 写数据
 
-![](..\图片\HDFS写数据流程.png)
+![写数据](/图片/HDFS写数据流程.png)
 
 1. 客户端通过Distribute FileSystem 模块向NameNode请求上传文件，NameNode检查目标文件是否已经存在，父目录是否存在
 2. NameNode 返回是否可以上传
@@ -15,7 +15,7 @@
 
 ## 读数据
 
-![](..\图片\HDFS读数据流程.png)
+![读数据](/图片/HDFS读数据流程.png)
 
 1. 客户端通过 DistributedFileSystem 向NameNode请求下载文件，NameNode通过查询元数据，找到文件块儿所在的DataNode地址。
 2. FSDataInputStream挑选一台DataNode（就近原则，然后随机）服务器，请求读取数据
