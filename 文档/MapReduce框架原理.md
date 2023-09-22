@@ -53,11 +53,11 @@
 
 ### 1.1.3 FileInputFormat 切片源码分析
 
-![](/图片/FileInputFormat 切片源码解析.png)
+![](/图片/FileInputFormat切片源码解析.png)
 
 ### 1.1.4 FileInputFormat 切片机制
 
-![](/图片/FileInputFormat 切片机制.png)
+![](/图片/FileInputFormat切片机制.png)
 
 ### 1.1.5 FileInputFormat切片大小的参数配置
 
