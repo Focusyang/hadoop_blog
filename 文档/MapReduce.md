@@ -27,7 +27,7 @@ MapReduce核心功能是将用户编写的**业务逻辑代码**和**自带默�
 
 ## 1.3 MapReduce 核心思想
 
-![](..\图片\MapReduce核心思想.png)
+![mapreduce核心思想](/图片/MapReduce核心思想.png)
 
 （1）分布式的运算程序往往需要分成至少 2 个阶段。 
 
