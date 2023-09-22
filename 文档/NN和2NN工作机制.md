@@ -1,6 +1,6 @@
 ## NameNode和SecondaryNameNode
 
-![](..\图片\NameNode工作机制.png)
+![](/图片/NameNode工作机制.png)
 
 **1）第一阶段：NameNode启动**
 
