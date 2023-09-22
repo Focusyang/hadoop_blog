@@ -10,7 +10,7 @@ HDFS(Hadoop Distribute File System),是一个**分布式文件系统**，用于�
 
 ## 结构
 
-![image-20230904153919962](\图片\HDFS结构.png)
+![HDFS结构](/图片/HDFS结构.png)
 
 ## HDFS块概念
 
