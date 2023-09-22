@@ -19,7 +19,7 @@ service sshd restart
 
 按i进入编辑模式，修改打开的配置文件，找到#Authentication:(注意：此行不做修改) 做修改如下所示。
 
-![image-20230624160726192](..\图片\修改sshd_config配置信息.png)
+![image-20230624160726192](/图片/修改sshd_config配置信息.png)
 
 ```
 an#取消这几行的注释
@@ -44,7 +44,7 @@ sudo service ssh restart
 
 ###### 6.注意
 
-![image-20230624161541626](..\图片\master节点.png)
+![image-20230624161541626](/图片/master节点.png)
 
 使用Xshell7与虚拟机建立连接时应注意：
 
@@ -54,4 +54,4 @@ sudo service ssh restart
 
 - 默认端口号22
 
-  ![image-20230624162335645](..\图片\shell接连界面.png)
+  ![image-20230624162335645](/图片/shell接连界面.png)
