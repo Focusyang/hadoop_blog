@@ -6,11 +6,11 @@
 
 **YARN 主要由 ResourceManager、NodeManager、ApplicationMaster 和 Container 等组件构成**
 
-![](..\图片\Yarn组成.png)
+![](/图片/Yarn组成.png)
 
 ## 1.2 Yarn 工作机制
 
-![](..\图片\Yarn工作机制.png)
+![](/图片/Yarn工作机制.png)
 
 - MR 程序提交到客户端所在的节点
 - YarnRunner 向 ResourceManager 申请一个Application。
@@ -28,7 +28,7 @@
 - ReduceTask 向 MapTask 获取相应分区的数据
 - 程序运行完毕之后，MR 会向 RM 申请注销自己。
 
-![](..\图片\Yarn提交过程.png)
+![](/图片/Yarn提交过程.png)
 
 作业提交全过程详解 
 
