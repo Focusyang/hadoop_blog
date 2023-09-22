@@ -1,6 +1,6 @@
 # MapReduce框架原理
 
-![](..\图片\Mapreduce框架原理.png)
+![mapreduce框架原理](/图片/Mapreduce框架原理.png)
 
 ## 1.1 InputFormat 数据输入
 
@@ -12,7 +12,7 @@
 
 ​	**数据切片：**数据切片只是在逻辑上对输入进行分片，并不会在磁盘上将其切分成片进行存储。数据切片是MapReduce 程序计算输入数据的单位，一个切片会对应启动一个MapTask。
 
-![](..\图片\切片与MapTask并行度决定机制.png)
+![数据切片](/图片/切片与MapTask并行度决定机制.png)
 
 ### 1.1.2 Job提交流程源码和切片源码解析
 
@@ -49,7 +49,7 @@
   
   ```
 
-  ![](..\图片\Job提交流程源码解析.png)
+  ![Job提交流程源码分析](/图片/Job提交流程源码解析.png)
 
 ### 1.1.3 FileInputFormat 切片源码分析
 
@@ -128,7 +128,7 @@ From the real demand for more close to the enterprise
 
 生产切片过程主要包括：**虚拟存储过程**和**切片过程**两部分
 
-![](..\图片\CombineTextInputFormat切片机制.png)
+![combineTextInputFormat](/图片/CombineTextInputFormat切片机制.png)
 
 1. 虚拟存储过程
 
